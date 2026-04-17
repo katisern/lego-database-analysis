@@ -1,7 +1,8 @@
 # LEGO Data Analysis Project (SQL)
 
 ## Overview  
-This project focuses on analyzing LEGO set data using SQL to identify patterns in how colors and parts are used across different sets and themes. The goal is to explore the structure of LEGO sets and understand trends such as the most commonly used colors, parts, and how these elements vary by theme.
+LEGO is a popular brand of toy building bricks. They are often sold in sets in order to build a specific object. Each set contains a number of parts in different shapes, sizes and colors. It's a popular fact that LEGO reuses pieces in a variety of sets. This project aims to analyze the extent to which different LEGO sets share common parts. Specifically, we investigate whether a user could theoretically recreate or approximate new LEGO builds using only the pieces from sets they already own. By analyzing part and color overlap across sets, we evaluate how interchangeable LEGO components are and how feasible it is to construct alternative builds without purchasing new sets.This analysis can provide insight into sustainability and creativity within LEGO building, highlighting how existing pieces can be reused to expand building possibilities.
+
 
 ## Project Objective  
 The main objective of this project is to answer the following question:
