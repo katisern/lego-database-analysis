@@ -43,17 +43,7 @@ The project includes the following SQL analyses:
 The following query analyzes the distribution of colors across different LEGO themes:
 
 ```sql
-SELECT 
-    t.name AS ThemeName,
-    c.name AS ColorName,
-    SUM(ip.quantity) AS TotalColorUsage
-FROM inventory_parts ip
-JOIN colors c ON ip.color_id = c.id
-JOIN inventories i ON ip.inventory_id = i.id
-JOIN sets s ON i.set_num = s.set_num
-JOIN themes t ON s.theme_id = t.id
-GROUP BY t.name, c.name
-ORDER BY TotalColorUsage DESC;
+--SELECT STATEMENT GOES HERE
 ```
 
 ## Tools Used  
