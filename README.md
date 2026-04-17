@@ -41,10 +41,17 @@ The project includes the following SQL analyses:
 
 ## Example Query  
 
-The following query analyzes the distribution of colors across different LEGO themes:
+The following query analyzes the top 10 most used colors across all LEGO sets:
 
 ```sql
---SELECT STATEMENT GOES HERE
+SELECT TOP 10 
+    c.name AS Color,
+    COUNT(DISTINCT i.set_num) AS NumberOfSets
+FROM inventory_parts ip
+JOIN inventories i ON ip.inventory_id = i.id
+JOIN colors c ON ip.color_id = c.id
+GROUP BY c.name
+ORDER BY NumberOfSets DESC;
 ```
 
 ## Tools Used  
