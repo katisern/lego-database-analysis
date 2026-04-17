@@ -25,18 +25,18 @@ These tables are connected using primary and foreign keys, allowing for complex 
 
 The project includes the following SQL analyses:
 
-- Top 10 most used colors across all LEGO sets  
-- Top 10 most common parts across all LEGO sets  
-- Total number of parts used per set  
-- Color distribution by theme  
-- Sets with the highest number of pieces  
-- Average number of pieces per set  
-- Themes with the greatest variety of colors (using HAVING)  
-- Sets above average size (using subqueries)  
-- Ranking most used colors (using CTE)  
-- Filtering sets by year (using variables)  
-- Queries using joins across four or more tables  
-- Count of unique parts per theme  
+- Top 10 most reused parts across all LEGO sets
+- Top 10 most reused colors across all LEGO sets
+- Total number of parts used per set
+- Number of unique parts used per set
+- Number of shared parts between two LEGO sets (using variables)
+- Parts used in more than 10 sets (using HAVING)
+- Sets with more than 500 total pieces (using HAVING)
+- Parts used more than the average (using subqueries)
+- Number of sets per theme
+- Color usage distribution by theme
+- Number of LEGO sets released per year
+- Total number of LEGO pieces used per year
 
 ## Example Query  
 
