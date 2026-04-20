@@ -8,6 +8,7 @@ LEGO is a popular brand of toy building bricks. They are often sold in sets in o
 The main objective of this project is to answer the following question:
 
 **What patterns can be identified in the use of colors and parts across LEGO sets and themes?**
+**Are there enough pieces to quantifiable create a entirely new set?**
 
 ## Dataset  
 The dataset used in this project consists of multiple related tables representing LEGO data, including:
